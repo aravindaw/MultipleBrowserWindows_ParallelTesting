@@ -1,8 +1,10 @@
 # MultipleBrowserWindows_ParallelTesting
 
-##pre requirements
-*ChromeDriver
-*Java 8
+## pre requirements
 
-##Set the ChromeDriver
-*in path.properties set the ChromeDriver
+* ChromeDriver
+* Java 8
+
+## Set the ChromeDriver
+
+* in path.properties set the ChromeDriver
