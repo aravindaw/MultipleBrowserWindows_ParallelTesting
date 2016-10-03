@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
+  <test name="TestCase_01(failed)" parallel="tests">
+    <classes>
+      <class name="com.aravinda.app.testSuite01$Test01">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.aravinda.app.testSuite0101$Test01 -->
+    </classes>
+  </test> <!-- TestCase_01(failed) -->
+</suite> <!-- Failed suite [Parallel test runs] -->

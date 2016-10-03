@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Suite" duration-ms="0" started-at="2016-10-03T06:06:08Z" finished-at="2016-10-03T06:06:08Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Test Suite -->
+  <suite name="Parallel test runs" duration-ms="15681" started-at="2016-10-03T06:05:52Z" finished-at="2016-10-03T06:06:08Z">
+    <groups>
+    </groups>
+    <test name="TestCase_01" duration-ms="15681" started-at="2016-10-03T06:05:52Z" finished-at="2016-10-03T06:06:08Z">
+      <class name="com.aravinda.app.testSuite01$Test01">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.aravinda.app.testSuite01$Test01@3f0ee7cb]" name="openBrowser" is-config="true" duration-ms="4054" started-at="2016-10-03T11:35:52Z" finished-at="2016-10-03T11:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.aravinda.app.testSuite01$Test01@3f0ee7cb]" name="loginTest" duration-ms="4256" started-at="2016-10-03T11:35:56Z" finished-at="2016-10-03T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeTheDrive()[pri:0, instance:com.aravinda.app.testSuite01$Test01@3f0ee7cb]" name="closeTheDrive" is-config="true" duration-ms="94" started-at="2016-10-03T11:36:00Z" finished-at="2016-10-03T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDrive -->
+      </class> <!-- com.aravinda.app.testSuite01$Test01 -->
+      <class name="com.aravinda.app.testSuite02$Test01">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.aravinda.app.testSuite02$Test01@c818063]" name="openBrowser" is-config="true" duration-ms="4087" started-at="2016-10-03T11:35:52Z" finished-at="2016-10-03T11:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.aravinda.app.testSuite02$Test01@c818063]" name="loginTest" duration-ms="4221" started-at="2016-10-03T11:35:56Z" finished-at="2016-10-03T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeTheDrive()[pri:0, instance:com.aravinda.app.testSuite02$Test01@c818063]" name="closeTheDrive" is-config="true" duration-ms="71" started-at="2016-10-03T11:36:00Z" finished-at="2016-10-03T11:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDrive -->
+      </class> <!-- com.aravinda.app.testSuite02$Test01 -->
+      <class name="com.aravinda.app.testSuite03$Test01">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.aravinda.app.testSuite03$Test01@75bd9247]" name="openBrowser" is-config="true" duration-ms="3017" started-at="2016-10-03T11:36:00Z" finished-at="2016-10-03T11:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.aravinda.app.testSuite03$Test01@75bd9247]" name="loginTest" duration-ms="4204" started-at="2016-10-03T11:36:03Z" finished-at="2016-10-03T11:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeTheDrive()[pri:0, instance:com.aravinda.app.testSuite03$Test01@75bd9247]" name="closeTheDrive" is-config="true" duration-ms="64" started-at="2016-10-03T11:36:08Z" finished-at="2016-10-03T11:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheDrive -->
+      </class> <!-- com.aravinda.app.testSuite03$Test01 -->
+    </test> <!-- TestCase_01 -->
+  </suite> <!-- Parallel test runs -->
+</testng-results>

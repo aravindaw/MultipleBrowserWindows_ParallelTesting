@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test runs" parallel="classes" thread-count="2">
+
+    <test name="TestCase_01">
+        <classes>
+            <class name="com.aravinda.app.testSuite02"/>
+            <class name="com.aravinda.app.testSuite01"/>
+            <class name="com.aravinda.app.testSuite03"/>
+        </classes>
+    </test>
+</suite>
